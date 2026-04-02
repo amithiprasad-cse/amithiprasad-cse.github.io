@@ -45,9 +45,9 @@ window.addEventListener("scroll", () => {
 elements.forEach(el => {
   el.style.opacity = "0";
   el.style.transform = "translateY(40px)";
-  el.style.transition = "0.6s ease";
+  el.style.transition = "all 0.6s ease";
 });
 
 
 // Console Message
-console.log("Portfolio Loaded Successfully ");
+console.log("Portfolio Loaded Successfully");
